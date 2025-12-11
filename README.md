@@ -6,8 +6,7 @@
 	* The stack a contains a random number of unique negative and/or positive integers.
 	* The stack b is empty.
 
-* The goal is to sort the numbers in stack a in ascending order. To achieve this, you
-have the following operations at your disposal:
+* The goal is to sort the numbers in stack a in ascending order. To achieve this, you have the following operations at your disposal:
 
 	```
 	sa (swap a): Swap the first 2 elements at the top of stack a.
@@ -31,13 +30,17 @@ have the following operations at your disposal:
 	rrr : rra and rrb at the same time.
 	```
 
-*  The program must display the shortest sequence of instructions needed to sort stack
-a with the smallest number at the top.
+* The program must display the shortest sequence of instructions needed to sort stack a with the smallest number at the top.
 	* If no parameters are specified, the program must not display anything and should return to the prompt.
 	* In case of error, it must display "Error" followed by an '\n' on the standard error. Errors include, for example: some arguments not being integers, some arguments exceeding the integer limits, and/or the presence of duplicates.
 
 ### checker
-
+* Write a program named checker that takes as an argument the stack a formatted as a list of integers. The first argument should be at the top of the stack (be careful about the order). If no argument is given, it stops and displays nothing.
+* It will then wait and read instructions from the standard input, with each instruction followed by ’\n’. Once all the instructions have been read, the program has to execute them on the stack received as an argument.
+* If after executing those instructions, the stack a is actually sorted and the stack b is empty, then the program must display "OK" followed by a ’\n’ on the standard
+output.
+* In every other case, it must display "KO" followed by a ’\n’ on the standard output.
+* In case of error, you must display "Error" followed by a ’\n’ on the standard error. Errors include for example: some arguments are not integers, some arguments are bigger than an integer, there are duplicates, an instruction doesn’t exist and/or is incorrectly formatted.
 
 ## Instructions
 The commands shown below are written for the fish shell.
