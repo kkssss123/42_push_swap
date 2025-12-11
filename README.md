@@ -69,5 +69,5 @@ It prints "OK" if ```push_swap``` sorts the numbers correctly, otherwise "KO". <
 In case of error, it prints "ERROR".
 
 ## Resources
-[Tutorial](https://automatic-saltopus-34b.notion.site/push_swap-c15e62229b9541d78fadec4d6aae8b50)<br/>
-[Algorithm reference](https://github.com/ayogun/push_swap/tree/main)
+* [Tutorial](https://automatic-saltopus-34b.notion.site/push_swap-c15e62229b9541d78fadec4d6aae8b50)<br/>
+* [Algorithm reference](https://github.com/ayogun/push_swap/tree/main)
